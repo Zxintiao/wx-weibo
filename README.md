@@ -1,6 +1,10 @@
 # 简介
 
+
 一个采用微信小程序开发平台开发的一个博客类的小程序开发
+
+使用nodejs搭建中控服务器，来操作微信小程序的云空间，使用vue-cli2搭建的后台管理系统页面：
+https://github.com/Zxintiao/wx-weibo-
 
 ## 效果图
 
@@ -22,12 +26,12 @@
 ```
 
 ## 技术栈
+使用了微信小程序的云开发功能
 
 1.授权系统   <button open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">获取微信授权信息</>
 
 - getUserInfo   (button open-type="getUserInfo")
   - 获取用户信息，可以从bindgetuserinfo回调中获取到用户信息   (bindgetuserinfo="onGetUserInfo")
-- 
 
 2.获取用户信息管理   wx.getUserInfo
 
